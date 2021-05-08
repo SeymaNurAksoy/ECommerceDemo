@@ -16,7 +16,7 @@ public class HibernateCustomerDao  implements CustomerDao{
 	@Override
 	public void delete(User customer) {
 
-		System.out.println("Sisteden silindiniz .");
+		System.out.println("Sistemden silindiniz .");
 		
 	}
 
