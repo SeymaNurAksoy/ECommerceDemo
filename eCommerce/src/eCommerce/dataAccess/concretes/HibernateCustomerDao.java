@@ -15,13 +15,15 @@ public class HibernateCustomerDao  implements CustomerDao{
 
 	@Override
 	public void delete(User customer) {
-		// TODO Auto-generated method stub
+
+		System.out.println("Sisteden silindiniz .");
 		
 	}
 
 	@Override
 	public void update(User customer) {
-		// TODO Auto-generated method stub
+
+		System.out.println("Sistem bilgileriniz güncellendi.");
 		
 	}
 
